@@ -36,7 +36,10 @@
       result =  correct == actual;
     if( !result ){
       $('#result-step-'+step).closest('article').parent().find('aside').addClass('negative');
-      $('input.result:visible').focus();
+      $('#result-step-'+step).val('');
+      setTimeout(function(){
+        $('#result-step-'+step).focus();
+      },500);
     }
     return result;
   }
