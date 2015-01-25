@@ -418,6 +418,7 @@ Helper classes
   font-size: 2em;
   padding: 0.5em;
   text-align: right;
+  width: 300px;
 }
 
 .wizard > .content > .body input[disabled]{
