@@ -47,7 +47,7 @@
     var $i2 = $('<input>').attr({ disabled: true, value: options.question[1]+' '+options.question[2], type: 'text' });
     var $q2 = $('<div>').addClass('form-group').append( $i2 );
 
-    var $ir = $('<input>').addClass('result').attr({ id: 'result-step-'+step, type: 'text', autocomplete: 'off' });
+    var $ir = $('<input>').addClass('result').attr({ id: 'result-step-'+step, type: 'number', autocomplete: 'off', inputmode: 'numeric', pattern: '[0-9]*' });
     var $rr = $('<div>').addClass('form-group').append( $ir );
 
     var $form = $('<form>')

@@ -413,7 +413,8 @@ Helper classes
   margin: 20px;
 }
 
-.sk-form input[type=text]{
+.sk-form input[type=text],
+.sk-form input[type=number]{
   font-size: 2em;
   padding: 0.5em;
   text-align: right;
